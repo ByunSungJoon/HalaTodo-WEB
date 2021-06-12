@@ -1,0 +1,39 @@
+{
+  "name": "json-mock-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "gulp dev",
+    "dev:readOnly": "gulp devReadOnly",
+    "dev:seed": "gulp devSeed",
+    "dev:seed:clean": "gulp devSeedClean",
+    "drop": "rimraf db.json",
+    "markserv": "markserv ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/faker": "^5.5.6",
+    "@types/gulp": "^4.0.8",
+    "@types/json-server": "^0.14.3",
+    "@types/rosie": "^0.0.39",
+    "@types/underscore": "^1.11.2",
+    "faker": "^5.5.3",
+    "gulp": "^4.0.2",
+    "json-server": "^0.16.3",
+    "mermaid": "^8.10.2",
+    "rimraf": "^3.0.2",
+    "rosie": "^2.1.0",
+    "ts-node": "^10.0.0",
+    "ts-node-dev": "^1.1.6",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^4.3.2",
+    "underscore": "^1.13.1"
+  },
+  "dependencies": {
+    "markserv": "^1.17.4"
+  }
+}
