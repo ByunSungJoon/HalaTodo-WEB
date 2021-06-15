@@ -1,11 +1,15 @@
-import React from "react";
+import React from 'react';
+import { RecoilRoot } from 'recoil';
+import TodoApp from './views/todo/TodoApp';
 
 function App() {
   return (
-    <div className="App">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+    <div className='m-auto antialiased font-sans font-serif font-mono text-center'>
+      <React.StrictMode>
+        <RecoilRoot>
+          <TodoApp />
+        </RecoilRoot>
+      </React.StrictMode>
     </div>
   );
 }
